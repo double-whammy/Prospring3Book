@@ -10,3 +10,5 @@ http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 	<bean id="renderer" class="com.apress.prospring3.ch2.StandardOutMessageRenderer"
 		p:messageProvider-ref="provider" />
 </beans>
+
+<!-- Chap 4 : If you are using this xml config, then don't use app-context-annotation.xml -->
